@@ -1,0 +1,16 @@
+.description {
+  width: 300px;
+  padding: 5px 10px;
+  margin: 0;
+  font-weight: 500;
+  background-color: silver;
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+}
+.good {
+  background-color: palegreen;
+}
+.bad {
+  background-color: rgb(238, 133, 102);
+}

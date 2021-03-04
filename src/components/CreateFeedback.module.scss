@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+}
+.button {
+  width: 100px;
+  border-radius: 5px;
+  border: 2px solid grey;
+  padding: 10px;
+  &:hover {
+    background-color: aqua;
+  }
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+.good {
+  background-color: palegreen;
+}
+.neutral {
+  background-color: rgb(202, 177, 130);
+}
+.bad {
+  background-color: rgb(238, 133, 102);
+}
